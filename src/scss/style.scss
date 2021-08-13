@@ -1,9 +1,11 @@
 @import "default";
+@import "mixins/mfonts";
 @import "fonts";
 @import "vars";
 @import "mixins";
 @import "main";
 
-
+@import "components/header";
+@import "components/players";
 
 

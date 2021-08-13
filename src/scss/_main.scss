@@ -1,0 +1,14 @@
+.site-content { 
+    margin: 30px auto 54px;
+    background-color: $colorMain;
+}
+
+.main__container { 
+    display: flex;
+    margin-right: 40px;
+    padding-bottom: 41px;
+    width: 100%;
+    @include desktop { 
+        flex-direction: column;
+    }
+}
